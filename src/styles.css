@@ -1,4 +1,82 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@400;900&family=Raleway&family=Roboto&family=Source+Serif+Pro:ital,wght@0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 8vh;
+  margin-top: 4vh;
+  border: transparent;
+  background-color: #8b4513;
+  box-shadow: black 1.5px 3px 4px;
+  color: white;
+  text-decoration: underline overline 0.5vh;
+}
+.cao img {
+  width: 20vw;
+  height: 30vh;
+  border-radius: 10px;
+}
+.cao {
+  margin-top: 5vh;
+  margin-left: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5vh;
+  border-radius: 8px;
+  background-color: #8b4513;
+}
+.cao:hover {
+  border-radius: 8px;
+  background-color: #9fb6cd;
+  transition: background 0.5s;
+}
+.animais {
+  display: flex;
+  color: white;
+}
+h3 {
+  margin-top: 4vh;
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #8b4513;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 15vw;
+  position: relative;
+  left: 5vw;
+  top: 33vh;
+  border-radius: 8px;
+  background-color: #8b4513;
+  color: white;
+}
+h4:hover {
+  border-radius: 8px;
+  background-color: #9fb6cd;
+  transition: background 0.5s;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #eedd82;
 }
